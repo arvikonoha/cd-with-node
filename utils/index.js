@@ -1,3 +1,4 @@
 const file = require("./file-operations");
+const tokenizer = require("./tokenizer");
 
-module.exports = { file };
+module.exports = { file, tokenizer };

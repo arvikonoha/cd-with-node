@@ -1,10 +1,10 @@
 const { file } = require("../utils/index");
-const { tokenize } = require("../utils/lex-tools");
+const { tokenizer } = require("../utils/index");
 
 module.exports.lex = async () => {
   try {
     // let text = await file.read(filepath);
-    let tokens = tokenize(text);
+    let tokens = tokenizer(text);
     return tokens;
   } catch (error) {
     console.log(error);
