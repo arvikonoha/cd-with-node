@@ -2,6 +2,7 @@ let keyword_matcher = require("./keyword-matcher");
 
 module.exports.tokenize = text => {
   // regular expression for comment, so that comments are removed
+  let comment = /\/\*.*\*\// || /\/\//;
   // still experimental not tested
   text = text.replace(/(\/\*[\w\'\s\r\n\*]*\*\/)|(\/\/[\w\s\']*)/, ""); // removing comment
   let lines = text.split(/\n|;/);
