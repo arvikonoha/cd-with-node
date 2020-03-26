@@ -1,0 +1,29 @@
+{
+  "name": "cd-with-node",
+  "version": "1.0.0",
+  "description": "A minimal compiler made with node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvikonoha/cd-with-node.git"
+  },
+  "keywords": [
+    "compiler",
+    "design",
+    "lexical",
+    "analysis",
+    "parsing",
+    "tokenisation",
+    "semantic",
+    "analysis"
+  ],
+  "author": "Aravinda B R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvikonoha/cd-with-node/issues"
+  },
+  "homepage": "https://github.com/arvikonoha/cd-with-node#readme"
+}
